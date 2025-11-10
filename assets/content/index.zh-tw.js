@@ -1,4 +1,4 @@
-const pageContent = {
+var pageContent = {
   "page-title": "Para ad cogitantum - 批判性思維健身房",
   "main-title": "Para ad cogitantum",
   "subtitle": "(批判性思維健身房)",
@@ -15,5 +15,5 @@ const pageContent = {
   "cta-text": "AI 是你的<i>陪練</i>。真正的辯論才是<i>冠軍賽</i>。作為這個項目的創始人，我主持<b>每週的現場辯論</b>並提供<b>個人化指導</b>。加入社群吧！",
   "cta-button": "我想加入辯論！",
   "faculty-title": "一個活的知識庫",
-  "faculty-text": "這只是一個開始。我們的目標是建立完整的課程。如果您是教師、哲學家或教育學者，並有興趣為這個AI輔助的<b>「教師會」</b>做出貢獻，[請聯繫我們](YOUR_CONTACT_LINK)。"
+  "faculty-text": "這只是一個開始。我們的目標是建立完整的課程。如果您是教師、哲學家或教育學者，並有興趣為這個AI輔助的<b>「教師會」</b>做出貢獻，[請聯繫我們](YOUR_CONTACT_LINK)."
 };
