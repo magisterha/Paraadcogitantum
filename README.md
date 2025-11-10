@@ -1,4 +1,4 @@
-# 🧠 Para ad cogitantum
+# 🧠 Para ad cogitandum
 **(A Gymnasium for Critical Thinking)**
 
 **Train your mind in the age of Artificial Intelligence.**
@@ -6,7 +6,7 @@
 ---
 
 ### Our Mission
-Welcome to *Para ad cogitantum*. This is not just a collection of *prompts*. It is a **mental gymnasium**.
+Welcome to *Para ad cogitandum*. This is not just a collection of *prompts*. It is a **mental gymnasium**.
 
 Our mission is to use Artificial Intelligence as a Socratic *sparring partner* to sharpen the most important tool you possess: your ability to think.
 
