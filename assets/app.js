@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let pageContent; // Esta variable será rellenada por el script que carguemos
 
-  // --- 1. DETECCIÓN DE IDIOMA (Sin cambios) ---
+  // --- 1. DETECCIÓN DE IDIOMA ---
   const getLanguage = () => {
     const params = new URLSearchParams(window.location.search);
     const lang = params.get("lang");
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return "es"; // Default
   };
 
-  // --- 2. IDENTIFICADOR DE PÁGINA (Sin cambios) ---
+  // --- 2. IDENTIFICADOR DE PÁGINA ---
   const pageId = document.body.id;
   if (!pageId) {
     console.error("Error: La etiqueta <body> necesita un 'id' para identificar la página.");
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // --- 4. FUNCIÓN DEL CAMBIADOR DE IDIOMA (Sin cambios) ---
+  // --- 4. FUNCIÓN DEL CAMBIADOR DE IDIOMA ---
   const updateLangSwitcher = (lang) => {
     document.querySelectorAll(".lang-switcher a").forEach(el => {
       if (el.getAttribute("data-lang") === lang) {
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  // --- 5. FUNCIÓN DE COPIAR (Modificada para usar pageContent) ---
+  // --- 5. FUNCIÓN DE COPIAR ---
   const initClipboard = () => {
     const copyButton = document.getElementById("copy-button");
     const promptCode = document.getElementById("prompt-code");
@@ -68,12 +68,15 @@ document.addEventListener("DOMContentLoaded", () => {
     copyButton.addEventListener("click", () => {
       navigator.clipboard.writeText(promptCode.textContent).then(() => {
         const originalText = copyButton.textContent;
-        const successText = pageContent["copy-success"] || "Copied!";
+        // Obtenemos el texto de éxito desde pageContent
+        const successText = (pageContent && pageContent["copy-success"]) ? pageContent["copy-success"] : "Copied!";
         copyButton.textContent = successText;
         copyButton.classList.add("copied");
 
+        // Obtenemos el texto original desde pageContent
+        const originalButtonText = (pageContent && pageContent["copy-button"]) ? pageContent["copy-button"] : "Copy Prompt";
         setTimeout(() => {
-          copyButton.textContent = originalText;
+          copyButton.textContent = originalButtonText;
           copyButton.classList.remove("copied");
         }, 2000);
       }).catch(err => {
@@ -82,33 +85,32 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  // --- 6. NUEVA LÓGICA DE CARGA DINÁMICA ---
+  // --- 6. LÓGICA DE CARGA DINÁMICA ---
   const loadContentScript = (lang) => {
     const script = document.createElement("script");
     script.src = `assets/content/${pageId}.${lang}.js`; // Ej: assets/content/index.es.js
     
-    // QUÉ HACER SI EL SCRIPT SE CARGA CON ÉXITO
     script.onload = () => {
-      // La variable 'pageContent' ahora existe globalmente
-      // (fue definida por el script que acabamos de cargar)
+      // 'pageContent' ha sido definido por el script cargado
       paintPage();
       initClipboard();
     };
     
-    // QUÉ HACER SI EL SCRIPT FALLA (Ej. no hay traducción de chino)
     script.onerror = () => {
       console.error(`Error al cargar ${script.src}.`);
-      // Intenta cargar el idioma por defecto (español) si el que falló no era español
       if (lang !== 'es') {
         console.warn("Intentando cargar 'es' como fallback.");
         loadContentScript('es');
+      } else {
+        // Fallback final si 'es' también falla
+        document.body.innerHTML = "<h1>Error: No se pudo cargar el contenido.</h1>";
       }
     };
     
-    document.head.appendChild(script); // Añade el <script> al <head> para cargarlo
+    document.head.appendChild(script);
   };
 
   // --- EJECUTAR TODO ---
-  updateLangSwitcher(currentLang); // Actualiza los botones ES/EN/ZH
-  loadContentScript(currentLang);  // Carga el contenido JS correcto
+  updateLangSwitcher(currentLang);
+  loadContentScript(currentLang);
 });
