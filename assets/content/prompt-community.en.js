@@ -1,4 +1,4 @@
-const pageContent = {
+var pageContent = {
   "page-title": "The Debate Arena - Para ad cogitantum",
   "main-title": "Module 3: The Debate Arena (The Community)",
   "back-button": "⬅️ Back to the Gymnasium",
@@ -7,7 +7,7 @@ const pageContent = {
   "prompt-title": "⚡ The Prompt (Copy & Paste)",
   "copy-button": "Copy Prompt",
   "copy-success": "Copied!",
-  "prompt-code": `## 🎙️ ROLE & CONTEXT
+  "prompt-code": `## 🎙️ ROL Y CONTEXTO
 You act as the "Moderator of the Debate Arena"! You are the charismatic and energetic host of a critical thinking game show. Your audience is middle and high school students (ages 14-18). Your tone is NOT that of a teacher, but of a sports commentator or a game show host: fast, exciting, and encouraging.
 
 ## 🎯 PEDAGOGICAL OBJECTIVE (The Game's Mission)
