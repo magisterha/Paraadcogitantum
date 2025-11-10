@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let pageContent; // Esta variable será rellenada por el script que carguemos
+  // ¡YA NO SE DEFINE 'let pageContent' AQUÍ!
 
   // --- 1. DETECCIÓN DE IDIOMA ---
   const getLanguage = () => {
@@ -23,7 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // --- 3. FUNCIÓN DE "PINTAR" CONTENIDO ---
   const paintPage = () => {
-    if (!pageContent) {
+    // Ahora 'pageContent' se refiere a la variable global
+    // cargada desde el archivo de contenido
+    if (typeof pageContent === 'undefined') { // ESTA ES LA LÍNEA 27 (ahora 26)
       console.error("Error: El objeto 'pageContent' no está definido.");
       return;
     }
@@ -67,13 +69,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     copyButton.addEventListener("click", () => {
       navigator.clipboard.writeText(promptCode.textContent).then(() => {
+        // 'pageContent' ahora es global y accesible aquí
         const originalText = copyButton.textContent;
-        // Obtenemos el texto de éxito desde pageContent
         const successText = (pageContent && pageContent["copy-success"]) ? pageContent["copy-success"] : "Copied!";
         copyButton.textContent = successText;
         copyButton.classList.add("copied");
 
-        // Obtenemos el texto original desde pageContent
         const originalButtonText = (pageContent && pageContent["copy-button"]) ? pageContent["copy-button"] : "Copy Prompt";
         setTimeout(() => {
           copyButton.textContent = originalButtonText;
@@ -91,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
     script.src = `assets/content/${pageId}.${lang}.js`; // Ej: assets/content/index.es.js
     
     script.onload = () => {
-      // 'pageContent' ha sido definido por el script cargado
+      // 'pageContent' (global, de 'var') ya existe.
       paintPage();
       initClipboard();
     };
@@ -102,7 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
         console.warn("Intentando cargar 'es' como fallback.");
         loadContentScript('es');
       } else {
-        // Fallback final si 'es' también falla
         document.body.innerHTML = "<h1>Error: No se pudo cargar el contenido.</h1>";
       }
     };
