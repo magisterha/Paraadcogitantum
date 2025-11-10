@@ -1,4 +1,4 @@
-const pageContent = {
+var pageContent = {
   "page-title": "El Detective de Cuentos - Para ad cogitantum",
   "main-title": "Módulo 2: El Detective de Cuentos (La Visión)",
   "back-button": "⬅️ Volver al Gimnasio",
