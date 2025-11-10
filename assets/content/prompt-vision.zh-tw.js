@@ -1,4 +1,4 @@
-const pageContent = {
+var pageContent = {
   "page-title": "故事偵探 - Para ad cogitantum",
   "main-title": "模組 2：故事偵探 (願景)",
   "back-button": "⬅️ 返回健身房",
