@@ -1,4 +1,4 @@
-const pageContent = {
+var pageContent = {
   "page-title": "Para ad cogitantum - Mental Gymnasium",
   "main-title": "Para ad cogitantum",
   "subtitle": "(A Gymnasium for Critical Thinking)",
