@@ -9,7 +9,7 @@ const content = {
       "main-title": "Para ad cogitantum",
       "subtitle": "(Gimnasio de Pensamiento Crítico)",
       "mission-title": "Nuestra Misión",
-      "mission-text": "Bienvenido a *Para ad cogitantum*. Esto no es una simple colección de *prompts*. Es un **gimnasio mental**. Nuestra misión es usar la IA como un *sparring* socrático para afilar tu capacidad de pensar. Estos *prompts* han sido diseñados con un método que combina pedagogía, filosofía, dialéctica y retórica para atacar la 'pereza mental' y construir una lógica robusta. Son gratuitos, de código abierto y tuyos para usarlos.",
+      "mission-text": "Bienvenido a <i>Para ad cogitantum</i>. Esto no es una simple colección de *prompts*. Es un <b>gimnasio mental</b>. Nuestra misión es usar la IA como un <i>sparring</i> socrático para afilar tu capacidad de pensar. Estos *prompts* han sido diseñados con un método que combina pedagogía, filosofía, dialéctica y retórica para atacar la 'pereza mental' y construir una lógica robusta. Son gratuitos, de código abierto y tuyos para usarlos.",
       "training-title": "Tu Entrenamiento (MVP)",
       "prompt-pillar-title": "MÓDULO 1: El Tutor Lógico (El Pilar)",
       "prompt-pillar-desc": "Nivel: Bachillerato / Universidad. El entrenamiento de 'fuerza' pura. Aprende a deconstruir textos y a separar el argumento del ruido.",
@@ -18,10 +18,10 @@ const content = {
       "prompt-community-title": "MÓDULO 3: La Arena de Debate (La Comunidad)",
       "prompt-community-desc": "Nivel: Secundaria / Bachillerato. El 'dojo' de ritmo rápido para tu detector de falacias.",
       "cta-title": "🏆 ¿Has vencido a la IA? Pasa al Siguiente Nivel.",
-      "cta-text": "La IA es tu *sparring*. El debate real es el *campeonato*. Como fundador de este proyecto, dirijo **debates semanales en vivo** y ofrezco **asesorías personalizadas**. ¡Únete a la comunidad!",
+      "cta-text": "La IA es tu <i>sparring</i>. El debate real es el <i>campeonato</i>. Como fundador de este proyecto, dirijo <b>debates semanales en vivo</b> y ofrezco <b>asesorías personalizadas</b>. ¡Únete a la comunidad!",
       "cta-button": "¡Quiero unirme al debate!",
       "faculty-title": "Un Repositorio VIVO",
-      "faculty-text": "Este es el inicio. Nuestro objetivo es construir el currículo completo. Si eres un docente, filósofo o pedagogo y te interesa contribuir a este **'Claustro'**, [contacta con nosotros](TU_ENLACE_DE_CONTACTO)."
+      "faculty-text": "Este es el inicio. Nuestro objetivo es construir el currículo completo. Si eres un docente, filósofo o pedagogo y te interesa contribuir a este <b>'Claustro'</b>, [contacta con nosotros](TU_ENLACE_DE_CONTACTO)."
     },
     // --- Textos del Prompt 1 (Pilar) ---
     "prompt-pillar": {
@@ -29,7 +29,7 @@ const content = {
       "main-title": "Módulo 1: El Tutor Lógico (El Pilar)",
       "back-button": "⬅️ Volver al Gimnasio",
       "warning-title": "¡ADVERTENCIA ANTES DE EMPEZAR!",
-      "warning-text": "Este *prompt* es un **Tutor Socrático implacable**. 1. **NO** te dará la respuesta. 2. **SÓLO** te hará preguntas. 3. **SERÁ** frustrante. Está diseñado para serlo. Acepta el desafío.",
+      "warning-text": "Este *prompt* es un <b>Tutor Socrático implacable</b>. 1. <b>NO</b> te dará la respuesta. 2. <b>SÓLO</b> te hará preguntas. 3. <b>SERÁ</b> frustrante. Está diseñado para serlo. Acepta el desafío.",
       "prompt-title": "⚡ El Prompt (Copiar y Pegar)",
       "copy-button": "Copiar Prompt",
       "copy-success": "¡Copiado!",
@@ -120,7 +120,7 @@ El objetivo es que el estudiante (el "jugador") aprenda a **identificar y nombra
 * Ad Hominem (Ataque al hombre)
 * Hombre de Paja (Muñeco de paja)
 * Falsa Dicotomía (Falso dilema)
-* Apelación a la Autoridad (Ad Verecundiam)
+* Apelación a la Autoridad (Ad Verecidiam)
 * Pista Falsa (Red Herring)
 * Generalización Precipitada
 
@@ -146,7 +146,7 @@ Soy el Moderador, y este es tu campo de entrenamiento mental.
 
 Tu misión: sobrevivir a nuestros 'Polemistas'. Te lanzarán todo tipo de trampas lógicas (falacias) para hacerte tropezar. Tu trabajo es detectarlas y nombrarlas antes de que te atrapen.
 
-¡No es una clase, es un juego! ¿Estás listo para entrenar tu detector de falacias?
+¡No es una clase, es un juego! ¿Estás listo para train tu detector de falacias?
 
 ¡Empecemos con el primer asalto!"`
     }
@@ -161,7 +161,7 @@ Tu misión: sobrevivir a nuestros 'Polemistas'. Te lanzarán todo tipo de trampa
       "main-title": "Para ad cogitantum",
       "subtitle": "(A Gymnasium for Critical Thinking)",
       "mission-title": "Our Mission",
-      "mission-text": "Welcome to *Para ad cogitantum*. This is not just a collection of *prompts*. It is a **mental gymnasium**. Our mission is to use AI as a Socratic *sparring partner* to sharpen your ability to think. These *prompts* were designed with a method combining pedagogy, philosophy, dialectics, and rhetoric to attack 'mental laziness' and build robust logic. They are free, open-source, and yours to use.",
+      "mission-text": "Welcome to <i>Para ad cogitantum</i>. This is not just a collection of *prompts*. It is a <b>mental gymnasium</b>. Our mission is to use AI as a Socratic <i>sparring partner</i> to sharpen your ability to think. These *prompts* were designed with a method combining pedagogy, philosophy, dialectics, and rhetoric to attack 'mental laziness' and build robust logic. They are free, open-source, and yours to use.",
       "training-title": "Your Training (MVP)",
       "prompt-pillar-title": "MODULE 1: The Logical Tutor (The Pillar)",
       "prompt-pillar-desc": "Level: High School / University. Pure strength training. Learn to deconstruct texts and separate argument from noise.",
@@ -170,17 +170,17 @@ Tu misión: sobrevivir a nuestros 'Polemistas'. Te lanzarán todo tipo de trampa
       "prompt-community-title": "MODULE 3: The Debate Arena (The Community)",
       "prompt-community-desc": "Level: Middle / High School. The fast-paced dojo for your fallacy detector.",
       "cta-title": "🏆 Beaten the AI? On to the Next Level.",
-      "cta-text": "The AI is your *sparring partner*. The real debate is the *championship*. As the founder, I host **live weekly debates** and offer **personalized coaching**. Join the community!",
+      "cta-text": "The AI is your <i>sparring partner</i>. The real debate is the <i>championship</i>. As the founder, I host <b>live weekly debates</b> and offer <b>personalized coaching</b>. Join the community!",
       "cta-button": "Join the Debate!",
       "faculty-title": "A Living Repository",
-      "faculty-text": "This is the beginning. Our goal is to build the full curriculum. If you are an educator, philosopher, or pedagogue interested in contributing to this **'Faculty'**, [contact us](YOUR_CONTACT_LINK)."
+      "faculty-text": "This is the beginning. Our goal is to build the full curriculum. If you are an educator, philosopher, or pedagogue interested in contributing to this <b>'Faculty'</b>, [contact us](YOUR_CONTACT_LINK)."
     },
     "prompt-pillar": {
       "page-title": "The Logical Tutor - Para ad cogitantum",
       "main-title": "Module 1: The Logical Tutor (The Pillar)",
       "back-button": "⬅️ Back to the Gymnasium",
       "warning-title": "WARNING BEFORE YOU START!",
-      "warning-text": "This *prompt* is a **relentless Socratic Tutor**. 1. It will **NOT** give you the answer. 2. It will **ONLY** ask questions. 3. It **WILL** be frustrating. It is designed to be. Accept the challenge.",
+      "warning-text": "This *prompt* is a <b>relentless Socratic Tutor</b>. 1. It will <b>NOT</b> give you the answer. 2. It will <b>ONLY</b> ask questions. 3. It <b>WILL</b> be frustrating. It is designed to be. Accept the challenge.",
       "prompt-title": "⚡ The Prompt (Copy & Paste)",
       "copy-button": "Copy Prompt",
       "copy-success": "Copied!",
@@ -276,9 +276,9 @@ The goal is for the student (the "player") to learn to **identify and name** the
 ## ⚙️ GAME RULES (The "Gamification" Loop)
 This is your core behavior. It's a fast-paced game!
 
-1.  **DUAL PERSONA (Key Rule):** You are the **Moderator** (your "real" self), but for each "round" of the game, you must *role-play* a character named **"The Polemicist."**
+1.  **DUAL PERSONA (Key Rule):** You are the **Moderador** (your "real" self), but for each "round" of the game, you must *role-play* a character named **"The Polemicist."**
 2.  **START A ROUND (As Moderator):** To start a round, you (A) set a familiar scene (e.g., "You're in a Twitter thread...", "Family dinner debate...", "Chatting in a video game lobby...") and (B) announce that "The Polemicist" is about to speak.
-3.  **THROW THE FALLACY (As Polemicist):** Immediately, you switch roles and embody The Polemicist, writing 1-2 sentences that *intentionally* contain a clear fallacy. (e.g., *Polemicist: "I can't believe you listen to that *youtuber* about finance, he didn't even finish college!"*).
+3.  **THROW THE FALLACY (As Polemicist):** Immediately, you switch roles and embody The Polemicist, writing 1-2 sentences that *intentionally* contain a clear fallacy. (e.g., *Polemista: "I can't believe you listen to that *youtuber* about finance, he didn't even finish college!"*).
 4.  **THE CHALLENGE (As Moderator):** You switch back to the Moderator and challenge the student: "There it is! Did you spot the trap? Detect and name the fallacy!"
 5.  **HANDLING A HIT (Celebration!):** If the student gets it right (e.g., "That's an Appeal to Authority!" or "They attacked the person, it's Ad Hominem!"), you celebrate with energy: "CORRECT! 🎯 Point for the logic detective! You dodged the trap! Ready for the next round?".
 6.  **HANDLING A MISS (Hint, not answer!):** If the student fails or hesitates, you NEVER give the answer. You give a playful hint: "Oof, so close! Look closely... the opponent didn't attack the *argument*, they attacked the *player* instead of the *ball*. What do we call that?".
@@ -293,7 +293,7 @@ This isn't a lesson with an end; it's a training dojo. Success is the player con
 
 I'm the Moderator, and this is your mental training ground.
 
-Your mission: survive our 'Polemicists.' They will throw all kinds of logical traps (fallacies) to trip you up. Your job is to spot them and name them before you get caught.
+Your mission: survive our 'Polemists.' They will throw all kinds of logical traps (fallacies) to trip you up. Your job is to spot them and name them before you get caught.
 
 This isn't a class, it's a game! Are you ready to train your fallacy detector?
 
@@ -310,7 +310,7 @@ Let's start the first round!"`
       "main-title": "Para ad cogitantum",
       "subtitle": "(批判性思維健身房)",
       "mission-title": "我們的使命",
-      "mission-text": "歡迎來到 *Para ad cogitantum*。這不僅僅是提示語的合集，這是一間**心智健身房**。我們的使命是使用人工智慧作為蘇格拉底式的**陪練夥伴**，來磨礪您最重要的工具：您的思考能力。這些提示語是透過結合教育學、哲學、辯證法和修辭學的方法設計的，旨在攻擊「思維惰性」並建立嚴謹的邏輯。它們是免費、開源的，供您使用。",
+      "mission-text": "歡迎來到 <i>Para ad cogitantum</i>。這不僅僅是提示語的合集，這是一間<b>心智健身房</b>。我們的使命是使用人工智慧作為蘇格拉底式的<b>陪練夥伴</b>，來磨礪您最重要的工具：您的思考能力。這些提示語是透過結合教育學、哲學、辯證法和修辭學的方法設計的，旨在攻擊「思維惰性」並建立嚴謹的邏輯。它們是免費、開源的，供您使用。",
       "training-title": "你的訓練 (MVP)",
       "prompt-pillar-title": "模組 1：邏輯導師 (支柱)",
       "prompt-pillar-desc": "級別：高中/大學。純粹的力量訓練。學習解構文本，區分論點與雜訊。",
@@ -319,17 +319,17 @@ Let's start the first round!"`
       "prompt-community-title": "模組 3：辯論競技場 (社群)",
       "prompt-community-desc": "級別：國中/高中。用於您的謬誤檢測器的快節奏道場。",
       "cta-title": "🏆 擊敗AI了嗎？進入下一階段。",
-      "cta-text": "AI 是你的*陪練*。真正的辯論才是*冠軍賽*。作為這個項目的創始人，我主持**每週的現場辯論**並提供**個人化指導**。加入社群吧！",
+      "cta-text": "AI 是你的<i>陪練</i>。真正的辯論才是<i>冠軍賽</i>。作為這個項目的創始人，我主持<b>每週的現場辯論</b>並提供<b>個人化指導</b>。加入社群吧！",
       "cta-button": "我想加入辯論！",
       "faculty-title": "一個活的知識庫",
-      "faculty-text": "這只是一個開始。我們的目標是建立完整的課程。如果您是教師、哲學家或教育學者，並有興趣為這個AI輔助的**「教師會」**做出貢獻，[請聯繫我們](YOUR_CONTACT_LINK)。"
+      "faculty-text": "這只是一個開始。我們的目標是建立完整的課程。如果您是教師、哲學家或教育學者，並有興趣為這個AI輔助的<b>「教師會」</b>做出貢獻，[請聯繫我們](YOUR_CONTACT_LINK)。"
     },
     "prompt-pillar": {
       "page-title": "邏輯導師 - Para ad cogitantum",
       "main-title": "模組 1：邏輯導師 (支柱)",
       "back-button": "⬅️ 返回健身房",
       "warning-title": "開始前的警告！",
-      "warning-text": "這個提示語是一個** relentless 蘇格拉底式導師**。 1. 它**不會**給你答案。 2. 它**只會**問你問題。 3. 這個過程**會**令人沮喪。這是故意設計的。接受挑戰吧。",
+      "warning-text": "這個提示語是一個 <b>relentless 蘇格拉DEI式導師</b>。 1. 它<b>不會</b>給你答案。 2. 它<b>只會</b>問你問題。 3. 這個過程<b>會</b>令人沮vert喪。這是故意設計的。接受挑戰吧。",
       "prompt-title": "⚡ 提示語 (複製貼上)",
       "copy-button": "複製提示語",
       "copy-success": "已複製！",
@@ -392,7 +392,7 @@ Let's start the first round!"`
     * 對於中心思想：「這個故事想教給我們的秘密『超能力』是什麼？」，「這個故事留給我們的『藏寶圖』是什麼？」。
 
 ## 🏆 成功標準（案件偵破！）
-遊戲僅在你的朋友（孩子）能用他自己的話向你解釋以下內容時才結束（我們贏了！）：
+遊戲僅在你的朋友（孩子）能用他自己的話向你解釋以下內容時才結束（我們赢了！）：
 1.  主要的「火花」以及它引起的「爆炸」。
 2.  他從故事中學到的「超能力」或秘密教訓。
 
@@ -400,7 +400,7 @@ Let's start the first round!"`
 ## 🎬 啟動指令（遊戲開始）
 "你好，偵探！我是你的夥伴，故事偵探！我準備好要偵破一個新案件了。
 
-你有沒有一個想讓我們一起調查的故事？或者，如果你願意，我可以講一個給你聽，讓我們一起找出隱藏的線索！"`
+你有沒有一個想讓我們一起調查的故事？或者，如果你願意，我可以講一個給你聽，讓我們一起找出隱藏的線S索！"`
     },
     "prompt-community": {
       "page-title": "辯論競技場 - Para ad cogitantum",
@@ -435,7 +435,7 @@ Let's start the first round!"`
 7.  **快節奏：** 不要在冗長的解釋上停留。目標是快速的重複和識別。回合 -> 偵測 -> 下一回合。
 
 ## 🏆 成功標準（無限遊戲）
-這不是一堂有結局的課；這是一個訓練「道場」。成功在於玩家持續參與，連續答對，並提高他們的識別速度。
+這不是一堂有结局的課；這是一個訓練「道場」。成功在於玩家持續參與，連續答對，並提高他們的識別速度。
 
 ---
 ## 🎬 啟動指令（遊戲邀請）
@@ -451,3 +451,4 @@ Let's start the first round!"`
     }
   }
 };
+```
