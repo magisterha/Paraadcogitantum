@@ -11,10 +11,12 @@ var pageContent = {
   "prompt-vision-desc": "Level: Primary (Ages 6-9). Proof that logic begins with play. Perfect for parents and educators.",
   "prompt-community-title": "MODULE 3: The Debate Arena (The Community)",
   "prompt-community-desc": "Level: Middle / High School. The fast-paced dojo for your fallacy detector.",
-
-  // --- CLAVES DEL MÓDULO 4 (ESTO ES LO QUE FALTA) ---
   "prompt-refutation-1-title": "MODULE 4: The Mirror Game (Primary)",
   "prompt-refutation-1-desc": "Level: Primary. Catch Parrot-Eye! A game to spot contradictions between words and actions.",
+  
+  // --- ¡NUEVO MÓDULO AÑADIDO! ---
+  "prompt-orator-title": "MODULE 5: The Socratic Orator (Advanced)",
+  "prompt-orator-desc": "Level: Advanced / University. The intellectual 'sparring' gym. Deconstruct Cicero's logic word by word.",
   // --- FIN DE LA ADICIÓN ---
 
   "cta-title": "🏆 Private Classes Assisted by AI",
