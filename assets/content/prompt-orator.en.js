@@ -1,7 +1,7 @@
 var pageContent = {
 // --- TITLES AND NAVIGATION ---
 "page-title": "The Socratic Orator - Para ad cogitantum",
-"main-title": "Module 3: The Socratic Orator (Cicero's Analysis)",
+"main-title": "Module 5: The Socratic Orator (Cicero's Analysis)",
 "back-button": "  Back to the Gymnasium",
 "prompt-title": "  The Prompt (Copy and Paste)",
 "copy-button": "Copy Prompt",
