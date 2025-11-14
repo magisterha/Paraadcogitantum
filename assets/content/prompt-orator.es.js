@@ -1,7 +1,7 @@
 var pageContent = {
 // --- TÍTULOS Y NAVEGACIÓN ---
 "page-title": "El Orador Socrático - Para ad cogitantum",
-"main-title": "Módulo 3: El Orador Socrático (Análisis de Cicerón)",
+"main-title": "Módulo 5: El Orador Socrático (Análisis de Cicerón)",
 "back-button": "  Volver al Gimnasio",
 "prompt-title": "  El Prompt (Copiar y Pegar)",
 "copy-button": "Copiar Prompt",
